@@ -77,3 +77,15 @@ body {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
 }
+
+h3.courier-font, h2.courier-font {
+  color: rgba(47, 79, 79, 0.77);
+}
+
+h3 {
+  margin:auto;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
