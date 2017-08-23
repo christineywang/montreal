@@ -89,3 +89,8 @@ h3 {
 h1 {
   margin-bottom: 5px;
 }
+
+a:link {
+  text-decoration: none;
+  background-color: gba(47, 79, 79, 0.77);
+}
