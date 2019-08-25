@@ -15,6 +15,26 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-125893623-2', 'auto');
 ga('send', 'pageview');
 </script>
+    
+<script>
+ga(function(){
+  ga_trackers=[];
+  ga.getAll().forEach(function(x,i){
+  ga_trackers.push(x.get('name'))});
+  ga_trackers.forEach(
+  function(gaName){
+    ga(gaName + '.require', 'Clearbit', {"mapping":{
+       "type": "dimension1",
+       "companyName": "dimension2",
+       "companyDomain": "dimension3",
+       "companyIndustry": "dimension4",
+       "companyEstimatedAnnualRevenue": "dimension5" }
+    });
+  });
+});
+</script>
+<script async src="https://ga.clearbit.com/v1/ga.js?authorization=pk_f08fc626a53388ff8d152e18515fb5e8">
+</script>
 <!-- End Google Analytics -->
 
     <title>Montréal Trip</title>
